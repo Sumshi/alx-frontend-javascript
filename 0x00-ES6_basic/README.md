@@ -10,3 +10,8 @@
 <li>Object creation and their properties in ES6</li>
 <li>Iterators and for-of loops</li>
 <ol>
+
+<h3><em>Notes</em></h3>
+<p>Var keyword is accesible inside the function it is defined</p>
+<p>let keyword is accesible inside the block it is defined</p>
+<p>const keyword is accesible inside the block it is defined, values cannot be changed</p>
