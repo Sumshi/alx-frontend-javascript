@@ -1,4 +1,4 @@
-function getFullResponseFromAPI(success) {
+export default function getFullResponseFromAPI(success) {
   return new Promise((resolve, reject) => {
     const apiData = { status: 200, body: 'Success' };
     // const success = true;
@@ -11,4 +11,4 @@ function getFullResponseFromAPI(success) {
   });
 }
 // export function for external use in 0-main.js
-export default getFullResponseFromAPI;
+// export default getFullResponseFromAPI;

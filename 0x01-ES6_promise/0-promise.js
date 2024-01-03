@@ -1,4 +1,4 @@
-function getResponseFromAPI() {
+export default function getResponseFromAPI() {
   return new Promise((resolve, reject) => {
     const apiData = { message: 'API response data' };
     const success = true;
@@ -11,4 +11,4 @@ function getResponseFromAPI() {
   });
 }
 // export function for external use in 0-main.js
-export default getResponseFromAPI;
+// export default getResponseFromAPI;
