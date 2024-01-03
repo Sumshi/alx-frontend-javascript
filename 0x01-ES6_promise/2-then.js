@@ -1,4 +1,4 @@
-function handleResponseFromAPI(promise) {
+export default function handleResponseFromAPI(promise) {
   const response = {
     status: 200,
     body: 'Success',
@@ -8,4 +8,3 @@ function handleResponseFromAPI(promise) {
     .catch(() => Error())
     .finally(() => console.log('Got a response from the API'));
 }
-export default handleResponseFromAPI;
